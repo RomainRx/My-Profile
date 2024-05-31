@@ -1,0 +1,74 @@
+/* Styles de base pour la page */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Conteneur principal */
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Style pour le titre principal */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style pour les sections */
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.section p {
+    margin: 10px 0;
+}
+
+/* Ligne de séparation */
+hr {
+    border: 0;
+    height: 1px;
+    background: #fff;
+    margin: 20px 0;
+}
+
+/* Conteneur pour les liens des réseaux sociaux */
+.social-media {
+    text-align: center;
+}
+
+/* Style pour les liens des réseaux sociaux */
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Effet de survol pour les liens des réseaux sociaux */
+.social-media a:hover {
+    background-color: #fff;
+    color: #000;
+}
